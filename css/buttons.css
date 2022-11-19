@@ -1,0 +1,29 @@
+.form-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-buttons button {
+    width: 100%;
+    background-color: var(--orange-color);
+    border: none;
+    min-height: 50px;
+    border-radius: 4px;
+    color: var(--white-color);
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form-buttons button:hover {
+    background-color: #fba549;
+}
+
+.button-left {
+    margin-right: 20px;
+}
+
+.button-right {
+    margin-left: 20px;
+}
